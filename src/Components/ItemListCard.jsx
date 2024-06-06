@@ -4,7 +4,7 @@ const ItemListCard = ({title,index,collapseToggle}) => {
 
   return (
 <div className="item" data-index={index} onClick={collapseToggle}>
-          <h2 className="collapsed font-medium text-xs pb-2 leading-7">
+          <h2 className="collapsed font-medium text-xs  leading-7">
             {title}
           </h2>
           <div className="collapsable hidden-list">

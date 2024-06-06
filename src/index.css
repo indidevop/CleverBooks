@@ -281,7 +281,7 @@ nav {
 }
 .collapsable {
   overflow: hidden;
-  height: 120px;
+  height: 28vh;
   transition: height 0.3s ease-out;
 }
 .hidden-list {
