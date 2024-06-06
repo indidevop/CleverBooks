@@ -15,6 +15,7 @@ import meta from "./assets/Social/meta.svg";
 import insta from "./assets/Social/insta.svg";
 import linkedin from "./assets/Social/linkedin.svg";
 import metrics from "./assets/metrics.png"
+import arr from "./assets/reviews"
 
 export {
   logo,
@@ -33,5 +34,6 @@ export {
   meta,
   insta,
   linkedin,
-  metrics
+  metrics,
+  arr
 };
