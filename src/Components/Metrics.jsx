@@ -4,7 +4,7 @@ import {metrics} from "../assets"
 const Metrics = () => {
 
   return (
-    <div className="metrics  h-[100vh] flex w-full">
+    <div className="metrics hidden h-[100vh] lg:flex w-full">
       <img src={metrics} alt="" className="object-cover"/>
     </div>
   );

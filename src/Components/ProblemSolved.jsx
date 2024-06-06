@@ -7,7 +7,7 @@ import {place} from '../assets'
 const ProblemSolved = () => {
   return (
     <div className='lg:my-14'>
-        <h1 className='text-center font-bold text-[25px] leading-[56px] lg:text-[40px] lg:py-5'>Four key questions answered by CleverBooks</h1>
+        <h1 className='text-center font-bold my-5 text-[20px] md:text-[25px] md:leading-[56px] lg:text-[40px] lg:py-5'>Four key questions answered by CleverBooks</h1>
         <div className="card-container flex flex-col justify-center items-center lg:flex-row lg:mx-5 lg:mt-8">
               <div className="card flex flex-col  rounded-2xl p-6 items-start m-5 lg:mx-3 bg-[#f1eafc]">
                 <img src={notepad} alt="" className='h-[55px]'/>

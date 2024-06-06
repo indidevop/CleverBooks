@@ -3,8 +3,7 @@ import { logo, twitter, meta, insta, linkedin } from "../assets";
 const Footer = () => {
   return (
     <div className="text-white bg-[#151318] lg:px-16 lg:pt-8">
-      {/*  */}
-      <div className="upper-div lg:flex">
+      <div className="upper-div lg:flex lg:justify-between">
         <div className="logo-div p-[1.2rem] lg:w-[40%]">
           <div className="logo-foot flex items-center ">
             <img
@@ -23,8 +22,8 @@ const Footer = () => {
           </p>
         </div>
         {/*  */}
-        <div className="nav-add flex lg:w-[60%]">
-          <div className="sec sec-1 w-[30%]">
+        <div className="nav-add flex flex-wrap lg:w-[60%]">
+          <div className="sec sec-1 ">
             <ul>
               <li>Explore</li>
               <li>Product</li>
@@ -33,14 +32,14 @@ const Footer = () => {
               <li>Career</li>
             </ul>
           </div>
-          <div className="sec sec-2 w-[30%]">
+          <div className="sec sec-2 ">
             <ul>
               <li>Learn</li>
               <li>About us</li>
               <li>Blog</li>
             </ul>
           </div>
-          <div className="sec sec-3 w-[40%]">
+          <div className="sec sec-3 w-[300px]">
             <ul>
               <li>Contact CleverBooks</li>
               <li className="mail">sales@cleverbooks.com</li>
@@ -86,7 +85,7 @@ const Footer = () => {
           }}
         />
         <div>
-          <ul className="flex">
+          <ul className="flex flex-wrap">
             <li>Copyright 2024 CleverBooks</li>
             <li>Terms of Service</li>
             <li>Privacy Policy</li>

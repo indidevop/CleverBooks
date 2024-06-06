@@ -169,9 +169,9 @@ nav {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  font-size: 32px;
+  font-size: 1.5rem;
   font-weight: 600;
-  line-height: 36px;
+  /* line-height: 36px; */
 }
 
 .btn-sec {
@@ -188,7 +188,7 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 5px;
-  font-size: 17px;
+  font-size: 1rem;
   text-decoration: none;
   transition: all 0.5s;
   display: flex;
@@ -197,7 +197,7 @@ nav {
   background-color: var(--white);
   border-radius: 30px;
   margin: -3px;
-  padding: 12px 50px;
+  padding: 12px 30px;
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
@@ -211,7 +211,7 @@ nav {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .btn-sec-mob {
@@ -271,7 +271,7 @@ nav {
   );
 }
 .collapsed {
-  font-size: 25px;
+  font-size: 22px;
   color: #222222;
 }
 .item {

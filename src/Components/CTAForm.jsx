@@ -3,11 +3,11 @@ import { crosssmall } from "../assets";
 const CTAForm = ({ active, setactive }) => {
   return (
     <div
-      className={`bg-[#2e2e2edb] absolute z-20 w-full ${
+      className={`bg-[#2e2e2edb] h-[120vh] absolute z-20 w-full ${
         active === true ? "flex" : "hidden"
       }`}
     >
-      <div className="w-[60%] lg:w-[40%] p-8 m-auto bg-[#f1eafc] rounded-3xl my-5 flex flex-col relative">
+      <div className="w-[80%] md:w-[70%] lg:w-[40%] p-8 m-auto bg-[#f1eafc] rounded-3xl flex flex-col relative">
         <img
           src={crosssmall}
           alt="close"

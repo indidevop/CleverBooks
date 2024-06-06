@@ -27,8 +27,8 @@ const CouldDo = () => {
   };
 
   return (
-    <div>
-      <h1 className="pt-16 pb-10 text-center font-bold text-[25px] leading-[56px] lg:text-[40px] lg:py-16">
+    <div className="py-10">
+      <h1 className="pt-16 pb-5 text-center font-bold text-[20px] lg:text-[40px] lg:py-16">
         Things your spreadsheet wishes it could do
       </h1>
 
